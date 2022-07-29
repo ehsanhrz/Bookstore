@@ -3,6 +3,6 @@ from django.db import models
 
 # Create your models here.
 
-class CoustomUser(AbstractUser):
+class CustomUser(AbstractUser):
     pass
- 
+
