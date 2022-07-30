@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # local APP_DIRS
     "accounts.apps.AccountsConfig",
+    "pages.apps.PagesConfig"
 ]
 AUTH_USER_MODEL = "accounts.CustomUser"
 
