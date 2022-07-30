@@ -70,7 +70,7 @@ TEMPLATES = [
         },
     },
 ]
-
+LOGIN_REDIRECT_URL = "home" 
 WSGI_APPLICATION = 'django_project.wsgi.application'
 
 
